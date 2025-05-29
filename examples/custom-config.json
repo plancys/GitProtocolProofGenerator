@@ -1,0 +1,19 @@
+{
+  "header": {
+    "template": "{{current_date}}\nDevelopment Work Report\n\nDeveloper: {{executor_name}}\nEmail: {{executor_email}}\nClient: {{recipient_name}}\n\nProject: {{repository_name}}\nBranch: {{branch_name}}\n\nWork Summary:",
+    "executor_name": "Your Name",
+    "executor_email": "your.email@company.com",
+    "recipient_name": "Your Client Company Ltd.",
+    "location": "Your City"
+  },
+  "pdf": {
+    "margin_top": 25,
+    "margin_bottom": 25,
+    "margin_left": 25,
+    "margin_right": 25,
+    "font_family": "Arial",
+    "font_size": 11,
+    "header_color": [0, 0, 0],
+    "content_color": [40, 40, 40]
+  }
+} 

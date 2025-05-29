@@ -1,0 +1,19 @@
+{
+  "header": {
+    "template": "City, {{current_date}}\nProtokół odbioru prac programistycznych\n\nWykonawca: {{executor_name}} ({{executor_email}})\nOdbiorca: {{recipient_name}}\n\nRepozytorium: {{repository_name}}\n- Branch {{branch_name}}\n- Commits:",
+    "executor_name": "Some Programmer",
+    "executor_email": "person@mail.com",
+    "recipient_name": "Company S.A.",
+    "location": "Kraków"
+  },
+  "pdf": {
+    "margin_top": 20,
+    "margin_bottom": 20,
+    "margin_left": 20,
+    "margin_right": 20,
+    "font_family": "Arial",
+    "font_size": 10,
+    "header_color": [0, 0, 0],
+    "content_color": [50, 50, 50]
+  }
+} 

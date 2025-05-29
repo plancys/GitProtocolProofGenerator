@@ -1,0 +1,29 @@
+# Binaries
+git-report-generator
+git-report-generator-*
+*.exe
+
+# Build artifacts
+build/
+dist/
+
+# Test files
+test-report.pdf
+example-report.pdf
+*.pdf
+
+# Go artifacts
+coverage.out
+coverage.html
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp 
