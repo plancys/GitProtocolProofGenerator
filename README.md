@@ -78,7 +78,7 @@ go install
 ./git-report-generator \
   --from 2024-01-01 \
   --to 2024-01-31 \
-  --author kamil.kalandyk@codewise.com \
+  --author some@dev.mail.com \
   --branch main \
   --output kamil-january-report.pdf
 ```
@@ -95,9 +95,9 @@ The default configuration includes:
 {
   "header": {
     "template": "Kraków, {{current_date}}\nProtokół odbioru prac programistycznych\n\nWykonawca: {{executor_name}} ({{executor_email}})\nOdbiorca: {{recipient_name}}\n\nRepozytorium: {{repository_name}}\n- Branch {{branch_name}}\n- Commits:",
-    "executor_name": "Kamil Kalandyk",
-    "executor_email": "kamil.kalandyk@codewise.com,kamil.kalandyk@cm.tech,kamil@mind-future.com",
-    "recipient_name": "Commerce Media Tech Sp. z o. o.",
+    "executor_name": "Some developer",
+    "executor_email": "some-email@mail.com",
+    "recipient_name": "Company Sp. z o. o.",
     "location": "Kraków"
   },
   "pdf": {
