@@ -162,8 +162,8 @@ The generated PDF report includes:
 Kraków, 2024-01-15
 Protokół odbioru prac programistycznych
 
-Wykonawca: Kamil Kalandyk (kamil.kalandyk@codewise.com,kamil.kalandyk@cm.tech,kamil@mind-future.com)
-Odbiorca: Commerce Media Tech Sp. z o. o.
+Wykonawca: DEVELOPER (email@email.com)
+Odbiorca: Some Company Sp. z o. o.
 
 Repozytorium: my-project
 - Branch main
